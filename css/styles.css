@@ -1,16 +1,31 @@
 body {
-    background-image: url("../images/background.jpeg");
-    background-size: cover;
+    background-image: url("/images/background.jpeg");
+    background-size: cover; /* covers the whole width */
     text-align: center;
-    font-family: 'Open Sans', arial;
-    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Font stack in case some browsers cannot load some font */
     color: #fff;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 h1 {
     color: goldenrod;
+    font-size: 2.5em;
 }
 
 #message-el {
+    font-style: italic;
+}
 
+button {
+    color: #016f32;
+    width: 250px;
+    background-color: goldenrod;
+    padding: 17px 0px;
+    margin: 5px 0px;
+    font-weight: bold;
+    font-size: 0.7em;
+    border: none;
+    border-radius: 6px;
 }
